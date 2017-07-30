@@ -12630,4 +12630,3 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-alert("holo");
