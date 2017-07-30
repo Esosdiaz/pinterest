@@ -10,47 +10,50 @@
 </head>
 <body>
 	<nav class="navbar navbar-default">
-  		<div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    		<div class="navbar-header">
-      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        			<span class="sr-only">Toggle navigation</span>
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-      			</button>
-      			<ul class="logoiz" class="align-middle">
-      				<li><a class="navbar-brand" href="#"><img src="dist/img/logo.jpg"></a></li>
-      				<li><a>Inicio</a></li>
-      			</ul>
-   			</div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-   			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      			<form class="navbar-form navbar-left">
-       				<div class="form-group">
-          				<input type="text" class="form-control" placeholder="Search">
-        			</div>
-      			</form>
-      			<ul class="nav navbar-nav align-middle">
-        			<li class="dropdown">
-          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Todos los pines<span class="caret"></span></a>
-          				<ul class="dropdown-menu">
-            				<li><a href="#">Action</a></li>
-            				<li><a href="#">Another action</a></li>
-            				<li><a href="#">Something else here</a></li>
-            				<li role="separator" class="divider"></li>
-            				<li><a href="#">Separated link</a></li>
-          				</ul>
-        			</li>
-        			<li class="foto-perfil"><a><img src="dist/img/img-perfil.jpg" class="img-circle"></a></li>
-        			<li class="nombreUsuario"><a>Fa Díaz</a></li>
-        			<li class="menu-icono"><a><img src="dist/img/menu-button.png"></a></li>
-        			<li class="icono-chat"><a><img src="dist/img/speech-bubble.png" ></a></li>
-      			</ul>
-    		</div><!-- /.navbar-collapse -->
-  		</div><!-- /.container-fluid -->
+  		<div class="row">
+  			<ul class="navTodo text-center">
+  				<li class="align-middle"><img src="dist/img/logo.jpg"></li>
+  				<li class="align-middle"><a>Inicio</a></li>
+  				<li class="align-middle"><input class="form-control" placeholder="Buscar"></li>
+  				<li class="align-middle">
+  					<div class="dropdown">
+  						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Todos los pines
+    						<span class="caret"></span>
+  						</button>
+  						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    						<li><a href="#">Action</a></li>
+    						<li><a href="#">Another action</a></li>
+    						<li><a href="#">Something else here</a></li>
+  						</ul>
+					</div>
+				</li>
+				<li class="align-middle"><img src="dist/img/img-perfil.jpg" class="img-circle"></li>
+				<li class="align-middle"><p>Fa Díaz</p></li>
+				<li class="align-middle"><img src="dist/img/menu-button.png"></li>
+				<li class="align-middle"><img src="dist/img/speech-bubble.png"></li>
+			</ul>
+		</div>
 	</nav>
+	<section class="botones container-fluid">
+		<div class="row">
+			<ul class="botonesLista">
+				<li><button class="btn btn-default btn1">Drees</button></li>
+				<li><button class="btn btn-default btn2">San Miguel de Allende</button></li>
+				<li><button class="btn btn-default btn3">Friki</button></li>
+				<li><button class="btn btn-default btn4">Invitaciones</button></li>
+				<li><button class="btn btn-default btn5">Photografy</button></li>
+				<li><button class="btn btn-default btn6">Photocall</button></li>
+				<li><button class="btn btn-default btn7">Damas</button></li>
+				<li><button class="btn btn-default btn8">Iluminacion</button></li>
+				<li><button class="btn btn-default btn9">Ramos</button></li>
+				<li><button class="btn btn-default btn10">Souvenires</button></li>
+				<li><button class="btn btn-default btn11">Invitacion</button></li>
+				<li><button class="btn btn-default btn12">Drees</button></li>
+			</ul>
+		</div>
+	</section>
+	<div class="prueba"></div>
+
 
 	<script src="dist/js/script.js"></script>
 </body>

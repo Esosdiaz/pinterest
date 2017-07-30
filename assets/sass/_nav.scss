@@ -4,52 +4,37 @@
 	font-family: 'Montserrat', sans-serif;
 }
 .navbar{
-	width: 100%;
-	height: auto;
+	padding: 10px;
 	background-color: $blanco;
-	li{
-		display: inline-block;
-	}
-}
-.logoiz{
-	li{
-		a{
-			color: $grisNav;
-			font-size: 20px;
-			font-weight: 700;
-			padding-bottom: 5px; 
-			img{
-				padding-top: 10px;
+	.row{
+		.navTodo{
+			li{
+				display: inline-block;
+				list-style: none;
+				padding-left: 30px;
+				a{
+					color: $grisNav;
+					font-weight: 300;
+					font-size: 15px;
+					padding-top: 10px;
+					text-decoration: none;
+					cursor: pointer;
+				}
+				input{
+					width: 370px;
+					padding-right: 0px;
+					border-radius: 0px;
+				}
+				.dropdown{
+					padding-left: 0px;
+					border-radius: 0px;
+				}
+				p{
+					color: $grisNav;
+					font-weight: 300;
+					font-size: 15px;
+				}
+			}
 			}
 		}
 	}
-}
-
-.navbar-form{
-	padding-top: 13px;
-	.form-control {
-    display: inline-block;
-    width: 370px;
-    height: 45px;
-    margin-right:0px;
-    }
-}
-
-.navbar-nav{
-	padding-top: 20px;
-	.dropdown{
-		border: 1px solid $grisNav;
-		border-radius: 7px;
-		height: 45px;
-		margin-left: 0px;
-		padding-top: 2px;
-	}
-	li{
-		a{
-			font-size: 14px;
-			font-weight: 600;
-			padding-top: 4px;
-			color: $grisNav;
-		}
-	}
-}
