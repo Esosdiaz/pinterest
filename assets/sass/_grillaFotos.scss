@@ -80,3 +80,61 @@
 	}
 }
 
+
+.modal-header{
+	ul{
+		li{
+			display: inline-block;
+		i{
+			color: $grisNav;
+		}
+		button{
+			width: 100px;
+			background-color: $rojoLogo;
+			height: 35px;
+			padding: 5px;
+			color: $blanco;
+			border: none;
+			border-radius: 3px; 
+			i{
+				color: $blanco;
+			}
+		}
+	}
+}
+}
+
+.modal-footer{
+	ul{
+		li{
+			display: inline-block;
+		i{
+			color: $grisNav;
+		}
+		button{
+			width: 100px;
+			background-color: $rojoLogo;
+			height: 35px;
+			padding: 5px;
+			color: $blanco;
+			border: none;
+			border-radius: 3px; 
+			i{
+				color: $blanco;
+			}
+		}
+	}
+}
+}
+
+.usuarioModal{
+	li{
+		display: inline-block;
+		.iconoUser{
+			color: $rojoLogo;
+		}
+		.leer{
+			background-color: $grisNav;
+		}
+	}
+}
