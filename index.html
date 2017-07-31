@@ -9,28 +9,27 @@
 	<link rel="stylesheet" href="dist/css/style.min.css">	
 </head>
 <body>
-	<nav class="navbar navbar-default">
-  		<div class="row">
-  			<ul class="navTodo text-center">
-  				<li class="align-middle"><img src="dist/img/logo.jpg"></li>
-  				<li class="align-middle"><a>Inicio</a></li>
-  				<li class="align-middle"><input class="form-control" placeholder="Buscar"></li>
-  				<li class="align-middle">
-  					<div class="dropdown">
-  						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Todos los pines
-    						<span class="caret"></span>
-  						</button>
-  						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    						<li><a href="#">Action</a></li>
-    						<li><a href="#">Another action</a></li>
-    						<li><a href="#">Something else here</a></li>
-  						</ul>
+	<nav class="navPinterest">
+  		<div class="contenedorNav">
+  			<ul class="navTodo">
+  				<li><a><i class="fa fa-pinterest fa-3x" aria-hidden="true"></i></a></li>
+  				<li><a>Inicio</a></li>
+  				<li><a>
+  					<div class="form">
+  						<input class="buscar" placeholder="&#xf002">
+  						<select class="selectorNav">
+    						<option value="" disabled selected>Todos los pines</option>
+    						<option value="Bodas">Bodas</option>
+    						<option value="Tatuajes">Tatuajes</option>
+    						<option value="Manualidades">Manualidades</option>
+    						<option value="Ropa">Ropa</option>
+						</select>
 					</div>
-				</li>
-				<li class="align-middle"><img src="dist/img/img-perfil.jpg" class="img-circle"></li>
-				<li class="align-middle"><p>Fa Díaz</p></li>
-				<li class="align-middle"><img src="dist/img/menu-button.png"></li>
-				<li class="align-middle"><img src="dist/img/speech-bubble.png"></li>
+				</a></li>
+				<li><a><img src="dist/img/img-perfil.jpg" class="img-circle"></a></li>
+				<li><a>Fa Díaz</a></li>
+				<li><a><img src="dist/img/menu-button.png"></a></li>
+				<li><a><img src="dist/img/speech-bubble.png"></a></li>
 			</ul>
 		</div>
 	</nav>
@@ -48,11 +47,38 @@
 				<li><button class="btn btn-default btn9">Ramos</button></li>
 				<li><button class="btn btn-default btn10">Souvenires</button></li>
 				<li><button class="btn btn-default btn11">Invitacion</button></li>
-				<li><button class="btn btn-default btn12">Drees</button></li>
+				<li><button class="btn btn-default btn12"><i class="fa fa-chevron-right" aria-hidden="true"></i></button></li>
 			</ul>
 		</div>
 	</section>
-	<div class="prueba"></div>
+	<section class="grillaPinterest">
+		<div class="contenedor">
+			<div id="columnas" class="columnas">
+
+				<div class="cajaJson">
+					<a href="#ventana1" data-toggle="modal">
+						<div class="pinJson">
+							<img class="fotoJson" src="dist/img/1.jpg">
+							<h3 class="tituloJson">Titulo</h3>
+							<p class="descJson">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+							<p class="usuarioJson">Usuario desde json</p>
+						</div>
+					</a>
+				</div>
+
+			</div>
+		</div>
+				
+		<div class="modal fade" id="ventana1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title">Titulo</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 	<script src="dist/js/script.js"></script>
