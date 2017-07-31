@@ -9,8 +9,8 @@
 	flex-direction: row;
 	align-items: center;
   	justify-content: space-around;
-  	padding-top: 5px;
-  	padding-bottom: 5px;
+  	padding-top: 3px;
+  	padding-bottom: 3px;
   	padding-left: 50px;
   	padding-right: 50px;
 
@@ -32,15 +32,21 @@
 				}
 				input{
 					padding:10px;
+					background-color: $grisBack;
+					border: none;
 					font-family: FontAwesome, "Open Sans";
-					width: 800px;
-					height: 30px;
+					width: 750px;
+					height: 35px;
 					padding-right: 0px;
-					border-radius: 0px;
+					border-radius: 3px;
 				}
 				.selectorNav{
 					padding-left: 0px;
-					height: 30px;
+					width: 170px;
+					height: 35px;
+					background-color: $grisBack;
+					border: none;
+					border-radius: 3px;
 				}
 				img{
 					padding-left: 8px;
